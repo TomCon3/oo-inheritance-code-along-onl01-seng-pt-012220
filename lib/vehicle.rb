@@ -1,12 +1,12 @@
 class Vehicle
-  attr_accessor :name, :wheel_size, :number
+  attr_accessor :wheel_size, :number
   
-  def initialize(name, wheel_size, number)
-    @name = name
+  def initialize(wheel_size, number)
     @wheel_size = wheel_size
     @number = number
   end
   
   def go 
-    "vrrrr"
+    "vrrrrrrrooom!"
+  end
 end
